@@ -1,10 +1,10 @@
 <template>
     <div class="IndexPage">
         <nav>
-            <a class="logo" href="https://github.com/Moonvy/OpenPromptStudio"><b>OPS</b>/OpenPromptStudio</a>
-            <a class="icon-link" href="https://github.com/Moonvy/OpenPromptStudio" target="_blank">
-                <Icon icon="radix-icons:github-logo"
-            /></a>
+            <a class="logo" href="javascript: void(0)"><b>Focus163.com</b>/Prompt</a>
+            <a class="icon-link" href="javascript: void(0)">
+                <Icon icon="logos:openai-icon"/>
+            </a>
 
             <div class="dict-button-box" @click="toggleDictPad()">
                 提示词词典
@@ -16,9 +16,6 @@
             <div class="title">
                 <Icon icon="mingcute:book-4-fill" />
                 提示词词典
-                <!--                <a class="github-dict" href="https://github.com/Moonvy/OpenPromptStudio" target="_blank">-->
-                <!--                    <Icon icon="radix-icons:github-logo" />一起维护词典</a-->
-                <!--                >-->
                 <button class="icon close-button" @click="toggleDictPad(false)">
                     <Icon icon="radix-icons:cross-1" />
                 </button>
@@ -57,7 +54,7 @@
         .icon-link {
             display: flex;
             place-items: center;
-            font-size: 18px;
+            font-size: 28px;
             color: #888686;
             text-shadow: 0 1px 1px #ffffff;
             margin-left: 6px;
