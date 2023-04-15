@@ -23,10 +23,7 @@
             <PromptDict />
         </section>
         <footer>
-            <a href="https://github.com/Moonvy/OpenPromptStudio" target="_blank">
-                <img class="icon" src="/icon.svg" /> OpenPromptStudio / v{{ version }} /
-            </a>
-            <a href="https://moonvy.com/?homepage"> made by <img src="./assets/logo_full_cn.svg" /></a>
+            <a href="javascript: void(0)"> made by Focus163.com</a>
         </footer>
     </div>
 </template>
